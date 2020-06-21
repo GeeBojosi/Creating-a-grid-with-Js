@@ -1,0 +1,33 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;      
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    background: #232323;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.square {
+    background: red;
+    border: 1px solid #fff;
+}
+
+.changeColor {
+    background: #000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.inputs {
+    text-align: center;
+    margin-top: 20px;
+}
